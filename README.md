@@ -14,4 +14,4 @@
 ### Find top 10 users who made the maximum number of comments
 1.In grouping, I grouped the comments collection using name and count is counted by using sum aggregate funtion.
 2. In sorting, I sort the data based on count and given limit 10 in limiting.
-3. These are passed to appregate pipelin.
+3. These are passed to appregate pipeline.
