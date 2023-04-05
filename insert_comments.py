@@ -6,7 +6,7 @@ def insert_comments(comments,movies):
     document = {
     "name": "Kannamma",
     "email": "Kannamma@gmail.com",
-    "movie_id": ObjectId(),
+    "movie_id": ObjectId("573a1390f29313caabcd413b"),
     "text": "Super movie",
     "date": datetime.datetime.now()
      }
