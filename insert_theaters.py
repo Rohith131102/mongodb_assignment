@@ -5,18 +5,19 @@ import numpy as np
 def insert_theaters(theaters):
     document={
 	"_id" : ObjectId(),
-	"theaterId" : input("Enter TheaterId: "),
+	"theaterId" : 1234,
 	"location" : {
 		"address" : {
-			"street1" : input("enter street1: "),
-			"city" : input("Enter city: "),
-			"state" : input("Enter sate: "),
-			"zipcode" : input("Enter zipcode: ")
+			"street1" : "Gandi",
+			"city" : "Pembarthy",
+			"state" : "telanagana",
+			"zipcode" : "506201"
 		},
 		"geo" : {
-			"type" : input("Enter Type: "),
+			"type" : "Point",
 			"coordinates" : [
-				input("enter cordinate1: "),input("enter coordinate2 : ")
+				-118.113953,
+                33.760466
 			]}}}
     result=theaters.insert_one(document)
     print(result.inserted_id)
